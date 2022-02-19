@@ -27,8 +27,19 @@ public class A {
 	}
 	
 	@Override
+	public boolean equals(Object obj) {
+		System.out.println(this+"  "+obj);
+		if(obj instanceof A) {
+			A a = (A)obj;
+			return (this.x == a.x) && (this.y == a.y);
+		}
+		else
+			return false;
+	}
+	
+	@Override
 	public String toString() {
-		return "A [x=" + x + ", y=" + y + "]";
+		return "A (" + x + ", " + y + ")";
 	}
 
 }
