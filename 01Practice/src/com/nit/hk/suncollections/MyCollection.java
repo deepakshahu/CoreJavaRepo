@@ -4,8 +4,13 @@ import java.util.Arrays;
 
 public class MyCollection {
 
-	public Object[] objArray = new Object[10];;
-	private int elementCount = 0;
+	public Object[] objArray;
+	private int elementCount;
+	
+	public MyCollection() {
+		objArray = new Object[10];
+		elementCount = 0;
+	}
 
 	public void add(Object obj) {
 		if(elementCount==objArray.length) {
@@ -73,7 +78,7 @@ public class MyCollection {
 
 	@Override
 	public String toString() {
-		return "MyCollection [objArray=" + Arrays.toString(objArray) + "]";
+		return Arrays.toString(objArray);
 	}
 
 }//class
