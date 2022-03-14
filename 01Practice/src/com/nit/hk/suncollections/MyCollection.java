@@ -75,7 +75,7 @@ public class MyCollection {
 		objArray[index] = obj;
 		elementCount++;
 	}
-
+	
 	@Override
 	public String toString() {
 		return Arrays.toString(objArray);
