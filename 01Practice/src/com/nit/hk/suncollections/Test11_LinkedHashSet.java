@@ -2,7 +2,7 @@ package com.nit.hk.suncollections;
 
 import java.util.LinkedHashSet;
 
-public class Test10_LinkedHashSet {
+public class Test11_LinkedHashSet {
 
 	public static void main(String[] args) {
 		LinkedHashSet<Object> lhs = new LinkedHashSet<>();
