@@ -27,6 +27,11 @@ public class A {
 	}
 	
 	@Override
+	public int hashCode() {
+		return x + y;
+	}
+	
+	@Override
 	public boolean equals(Object obj) {
 		System.out.println(this+"  "+obj);
 		if(obj instanceof A) {
