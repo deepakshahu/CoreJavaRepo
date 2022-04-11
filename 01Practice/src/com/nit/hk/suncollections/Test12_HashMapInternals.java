@@ -2,7 +2,7 @@ package com.nit.hk.suncollections;
 
 import java.util.HashMap;
 
-public class Test12_HashMap {
+public class Test12_HashMapInternals {
 
 	public static void main(String[] args) {
 		HashMap<Object, Object> hm = new HashMap<>();
