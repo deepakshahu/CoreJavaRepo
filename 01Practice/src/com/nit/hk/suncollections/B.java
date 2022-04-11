@@ -1,6 +1,6 @@
 package com.nit.hk.suncollections;
 
-public class B {
+public class B implements Comparable<B>{
 	private int x;
 	private int y;
 
@@ -33,6 +33,11 @@ public class B {
 	@Override
 	public int hashCode() {
 		return x + y;
+	}
+
+	@Override
+	public int compareTo(B b) {
+		return this.x - b.x;
 	}
 	
 	/*@Override
