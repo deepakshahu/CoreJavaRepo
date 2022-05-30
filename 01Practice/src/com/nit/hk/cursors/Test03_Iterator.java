@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-//Create a collection of Strings with different length
-//remove the string whose length is > 4 from this collection
 public class Test03_Iterator {
 
 	public static void main(String[] args) {
