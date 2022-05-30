@@ -3,8 +3,6 @@ package com.nit.hk.cursors;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-//Create a collection of Strings, Integers and some other types
-//Remove all integers from this collection and display all strings in upper case by using iterator
 public class Test06_IteratorRemove2 {
 
 	public static void main(String[] args) {
